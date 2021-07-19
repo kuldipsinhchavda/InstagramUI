@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManager (6.5.6)
+  - Kingfisher (4.10.1)
+  - SkyFloatingLabelTextField (3.8.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Kingfisher (~> 4.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - Kingfisher
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+
+PODFILE CHECKSUM: 94fc41fa824dc805cd7e76aad66f7086ea1bb207
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchCollectionViewCell" id="gTV-IL-0wX" customClass="SearchCollectionViewCell" customModule="instagram_UI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ZB-ZE-fpg">
+                        <rect key="frame" x="0.0" y="0.0" width="135" height="130"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sgk-bo-7Ia">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="0It-7h-WXH"/>
+                                    <constraint firstAttribute="width" constant="135" id="JOJ-Do-c56"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="sgk-bo-7Ia" secondAttribute="bottom" id="96q-Oz-rvg"/>
+                            <constraint firstAttribute="trailing" secondItem="sgk-bo-7Ia" secondAttribute="trailing" id="Eqz-sr-69j"/>
+                            <constraint firstItem="sgk-bo-7Ia" firstAttribute="leading" secondItem="3ZB-ZE-fpg" secondAttribute="leading" id="Kh1-Uf-p61"/>
+                            <constraint firstItem="sgk-bo-7Ia" firstAttribute="top" secondItem="3ZB-ZE-fpg" secondAttribute="top" id="w7f-tP-gXf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="3ZB-ZE-fpg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A40-m6-Rrd"/>
+                <constraint firstAttribute="trailing" secondItem="3ZB-ZE-fpg" secondAttribute="trailing" id="MSm-i7-aCg"/>
+                <constraint firstItem="3ZB-ZE-fpg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Mpi-c5-ZE0"/>
+                <constraint firstAttribute="bottom" secondItem="3ZB-ZE-fpg" secondAttribute="bottom" id="hK2-Kh-vzZ"/>
+            </constraints>
+            <size key="customSize" width="135" height="130"/>
+            <connections>
+                <outlet property="postImage" destination="sgk-bo-7Ia" id="FgV-LJ-KeH"/>
+            </connections>
+            <point key="canvasLocation" x="-141.30434782608697" y="-34.821428571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
